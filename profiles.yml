@@ -1,0 +1,13 @@
+dbt_training_demo:
+  outputs:
+    dev:
+      account: LJIAMKO-SC14595
+      database: DEV
+      password: dbtPassword123
+      role: TRANSFORM
+      schema: bronze_airbnb
+      threads: 4
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev
