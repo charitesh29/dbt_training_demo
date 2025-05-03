@@ -17,3 +17,7 @@ models:
     silver_airbnb:
      +schema: 'SILVER_AIRBNB'
      +materialized: view
+    gold_airbnb:
+     +schema: 'GOLD_AIRBNB'
+     +materialized: table
+      
